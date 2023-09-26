@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML Practice</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Semantic Website</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/#home">Home</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#gallery">Gallery</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is the home section.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This section is about me.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/rock" alt="Rock Image" width="100" height="100">
+        <img src="https://source.unsplash.com/random/sand" alt="Sand Image"  width="100" height="100">
+        <img src="https://source.unsplash.com/random/ocean" alt="Ocean Image"  width="100" height="100">
+        <img src="https://source.unsplash.com/random/sky" alt="Sky"  width="100" height="100">
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="submit" aria-label="Submit Button">
+
+        </form>
+    </section>
+
+  </body>
 </html>
